@@ -1,0 +1,135 @@
+/*
+
+  
+/*  @font-face {
+    src: url(Cormorant-Regular);
+    font-family: Cor;
+  }
+  */
+  
+
+  @font-face {
+    src: url(Cormorant-Regular);
+    font-family: Cor;
+  }
+  
+
+  body {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    color: #373737;
+    background-image: url(https://cdn.discordapp.com/attachments/752315764102529074/1180951567483019264/img20221202_13383876.jpg?ex=657f49da&is=656cd4da&hm=53e650be6b1f87b0e00259aa02883c355a3035169892cc8d894dfa9919ae8c72&);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+  
+  .wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    max-height: 192px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    align-items: center;
+  }
+  
+  
+  img {
+    height: 65px;
+    max-width: auto;
+    justify-items: auto;
+    justify-content: center;
+    /* max-width: 800px; */
+    margin: 1rem;
+    margin-bottom: 0.2rem;
+    border-radius: .2rem;
+
+    justify-content: center;
+  }
+  
+  .nav-main {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-image: url(https://cdn.discordapp.com/attachments/752315764102529074/1180983593292550205/img20221202_13371289ye.jpg?ex=657f67ae&is=656cf2ae&hm=923d9527be61b1fdf7513cdb263e4516470efabf5de79f5ce956815d348c5f34&);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #fabf72;
+    margin-bottom: 2rem;
+  }
+  
+  .reelbox,
+  .illbox {
+    background-image: url(https://cdn.discordapp.com/attachments/752315764102529074/1180983593292550205/img20221202_13371289ye.jpg?ex=657f67ae&is=656cf2ae&hm=923d9527be61b1fdf7513cdb263e4516470efabf5de79f5ce956815d348c5f34&);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #e8bda5;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: top;
+    text-align: center;
+  }
+  
+  .iframe {
+    margin-left: auto;
+    margin-right: auto;
+    size-adjust: flex;
+    display: flex;
+  }
+  
+  .welcomeimg{
+    height: auto;
+    image-rendering: 400px;
+    justify-content: center;
+  }
+
+.artwork {
+    margin: 10px;
+    height: 1000px;
+    max-width: auto;
+  }
+  
+  .caption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .footer{
+  background-image: url(https://cdn.discordapp.com/attachments/752315764102529074/1180983593292550205/img20221202_13371289ye.jpg?ex=657f67ae&is=656cf2ae&hm=923d9527be61b1fdf7513cdb263e4516470efabf5de79f5ce956815d348c5f34&);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-color: #e8bda5;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  }
+
+  .footer p{
+    justify-content: center;
+    align-items: center;
+  }
+
+  a{
+    text-decoration: none ;
+  }
